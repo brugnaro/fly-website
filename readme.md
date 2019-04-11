@@ -1,0 +1,11 @@
+-- sudo apt install mysql-server
+-- https://community.linuxmint.com/software/view/mysql-workbench
+-- create database called adm
+-- create tables with script in this path: public/db/db.sql
+-- npm i nodemon -g
+-- cd public/admin/
+-- npm i bower -g
+-- sudo apt-get install redis-server
+-- sudo systemctl enable redis-server.service
+-- yarn
+-- yarn start

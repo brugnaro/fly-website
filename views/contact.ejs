@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<%- include('inc/head') -%>
+
+<body>
+  <%- include('inc/top-nav') -%>
+  <%- include('inc/nav') -%>
+
+  <div class="contact-page-container">
+
+    <div class="tab-contact-page-container">
+      <div class="plan-tab">
+        <p>Teste por 5 dias</p>
+        <p class="tab-blue">Assinante FLY</p>
+      </div>
+      <div class="plan-content">
+        <div class="plan-title-content">
+          <p>Aplicativo para IOS/Android</p>
+          <p>Agenda dinâmica</p>
+          <p>Desafio de 21 dias*</p>
+          <p>Acesso ilimitado à todas as aulas</p>
+          <p>Planejamento e assistência personalizada</p>
+          <p>Suporte 24h</p>
+          <p>Investimento</p>
+        </div>
+        <div class="plan-check-content">
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p>R$ 0/5 dias</p>
+        </div>
+        <div class="plan-check-content">
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p>R$ 199/mês</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <div class="form-title">
+        <h3>Fale com nossos consultores</h3>
+      </div>
+      <label>Nome:</label>
+      <input name="name" type="text" placeholder="" value="" />
+      <label>E-mail:</label>
+      <input name="email" type="email" placeholder="" value="" />
+      <label>Telefone:</label>
+      <input name="phone" type="text" placeholder="" value="" />
+      <label>Mensagem:</label>
+      <textarea name="message" type="text" placeholder="" value=""></textarea>
+      <button class="btn-send-form">Enviar</button>
+    </div>
+
+  </div>
+
+  <div class="contact-description-container">
+    <div class="contact-description-item">
+      <h3>Fale conosco</h3>
+      <p>
+        A FLY proporciona todos os meios para que sua experiêcia seja única, com canais de
+        atendimento que auxiliam na utilização da plataforma. Temos uma equipe preparada para
+        tirar suas dúvidas e ofercer apoio, suporte personalizado com CHAT ONLINE e 0800 para
+        todos os estados do Brasil.
+      </p>
+      <button class="contact-btn">
+        <i class="fas fa-phone"></i>
+        <span>0800 006 0110</span>
+      </button>
+    </div>
+  </div>
+
+  <%- include('inc/footer') -%>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./js/menu.js" type="text/javascript"></script>
+  <script src="./js/scroll-animate.js" type="text/javascript"></script>
+  <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+
+</html>

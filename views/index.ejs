@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('inc/head') -%>
+
+<body>
+  <%- include('inc/top-nav') -%>
+  <%- include('inc/nav') -%>
+  <div id="modal-contact" class="modal">
+    <div class="modal-content">
+      <div>
+        <span class="close">&times;</span>
+      </div>
+      <form>
+        <div class="form-title-container">
+          <p></p>
+          <h4>Novo Usuário</h4>
+          <p></p>
+        </div>
+        <div class="form-container">
+          <div class="form-input-container">
+            <input name="name" type="text" placeholder="Nome" />
+            <input name="lastname" type="text" placeholder="Sobrenome" />
+          </div>
+          <div class="form-input-container single">
+            <input name="email" type="text" placeholder="E-mail" />
+            <input name="password" type="password" placeholder="Senha" />
+          </div>
+          <div class="recaptcha-container">
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+          </div>
+        </div>
+        <div class="form-btn-container">
+          <button class="newsletter-btn form-btn">CADASTRAR</button>
+        </div>
+      </form>
+      <div class="info-text-container">
+        <p>
+          Ao se registar, você concorda com nossos
+          <span>Termos e Condições,</span> e nossa
+          <span>Política de privacidade.</span>
+        </p>
+      </div>
+      <div class="form-title-container">
+        <p></p>
+        <h4>Já sou cadastrado</h4>
+        <p></p>
+      </div>
+      <form>
+        <div class="form-container">
+          <div class="form-input-container single">
+            <input name="username" type="text" placeholder="Usuário" />
+            <input name="password" type="password" placeholder="Senha" />
+          </div>
+        </div>
+      </form>
+      <div class="form-btn-container">
+        <button class="newsletter-btn form-btn-login">LOGIN</button>
+      </div>
+    </div>
+  </div>
+  <div class="Modern-Slider">
+    <div class="item">
+      <div class="img-fill" id="open-modal-contact">
+        <img src="./assets/png/banner-01.png">
+      </div>
+    </div>
+    <div class="item">
+      <div class="img-fill">
+        <img src="./assets/png/banner-02.png">
+      </div>
+    </div>
+    <div class="item">
+      <div class="img-fill">
+        <img src="./assets/png/banner-03.png">
+      </div>
+    </div>
+    <div class="item">
+      <div class="img-fill">
+        <img src="./assets/png/banner-04.png">
+      </div>
+    </div>
+  </div>
+  <div class="up-btn">
+    <a href="#top-nav"><i class="far fa-arrow-alt-circle-up fa-lg"></i></a>
+  </div>
+  <section id="whoweare">
+    <div class="whoweare-container wow fadeInLeft" data-wow-duration="2s">
+      <h2>O que é a Fly</h2>
+      <p>
+        FLY é uma plataforma de ensino que possui um método de estudo 100% online, com ferramentas poderosas que
+        capacitam
+        seus alunos a atingirem seus objetivos. Possui conteúdo para concursos da área jurídica e exame da OAB, traçando
+        um
+        planejamento personalizado de acordo com a sua rotina.
+      </p>
+      <button class="btn">Saiba mais</button>
+      <span id="method"></span>
+    </div>
+  </section>
+  <div class="section-img-grey">
+    <section>
+      <div class="section-img-content wow fadeInRight" data-wow-duration="2s">
+        <div class="section-content-left">
+          <h2>Como funciona o método?</h2>
+          <p>
+            A Fly utiliza o método Cepcon, que tem sua estrutura baseada em planejamento personalizado,
+            ferramentas de aprendizagem e gestão da emoção. Possui mais de 25 mil horas de atendimento e há 8 anos
+            tem sua eficácia comprovada.
+          </p>
+          <button class="btn-green">Teste Grátis</button>
+        </div>
+        <img src="./assets/png/method.png" />
+      </div>
+    </section>
+  </div>
+  <div class="section-img-blue">
+    <section>
+      <div class="section-img-content wow fadeInLeft" data-wow-duration="2s">
+        <img src="./assets/png/instructors.png" />
+        <div class="section-content-right">
+          <h2>O que a Fly tem de inovador?</h2>
+          <p>
+            A Fly acelera e facilita o aprendizado do aluno, por meio da potencialização
+            da leitura guiada e otimização do tempo para fechamento do conteúdo
+            programático. É uma plataforma completa de técnicas de aprendizado e gestão
+            da emoção. Outro diferencial: leitura guiada das principais leis.
+          </p>
+          <button class="green-btn">Fale com nossos consultores</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="method" class="section-img-grey">
+    <section>
+      <div class="section-img-content wow fadeInRight" data-wow-duration="2s">
+        <div class="section-content-left">
+          <h2>Conteúdo pronto e esquematizado pra você</h2>
+          <p>
+            O aplicativo Fly monitora e faz a gestão de todo conteúdo já estudado pelo
+            aluno e direciona o estudo para as matérias que ainda faltam de acordo com o edital
+            escolhido. Você tem acesso ao conteúdo programático já
+            esquematizado, pronto para o estudo.
+          </p>
+          <button class="green-btn">Baixe nosso aplicativo</button>
+        </div>
+        <img src="./assets/png/progress.png" />
+      </div>
+    </section>
+  </div>
+  <div class="section-img-blue">
+    <section>
+      <div class="section-img-content wow fadeInLeft" data-wow-duration="2s">
+        <img src="./assets/png/grow.png" />
+        <div class="section-content-right">
+          <h2>Aprenda a gerir suas emoções e garanta sua aprovação</h2>
+          <p>
+            Na Fly temos ferramentas específicas para driblar a autossabotagem,
+            ansiedade, procrastinação ou qualquer outra emoção negativa que atrapalhe seus estudos.
+            O desafio 21 dias foi desenhado para você que quer fechar o edital. Vamos juntos até o fim!
+          </p>
+          <button class="green-btn">Teste grátis por 5 dias</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="wow fadeInDown animated" data-wow-duration="2s">
+    <h2>Conheça nossos facilitadores</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="./assets/png/walter.png" width="150" />
+        <h4>Walter Augusto</h4>
+        <p>
+          Mais conhecido como Waltinho, tem 45 anos e um jeito muito descontraído de transmitir o conteúdo das aulas.
+          Não se espante quando estiver aprendendo e rindo ao mesmo tempo com essa figura.
+        </p>
+      </div>
+      <div class="card">
+        <img src="./assets/png/jeferson.png" width="150" />
+        <h4>Jeferson Faria</h4>
+        <p>
+          Com seu tom mais formal, Jeferson sabe que dedicação e seriedade na hora de estudar é o
+          caminho mais certeiro para o sucesso. Cheio de dicas assertivas e olho no objetivo,
+          o conteúdo é direto e reto.
+        </p>
+      </div>
+      <div class="card">
+        <img src="./assets/png/rafaela.png" width="150" />
+        <h4>Rafaela Lins</h4>
+        <p>
+          Precisando de uma motivação junto com todo o volume de matéria que precisa cobrir?
+          Positiva e cheia de energia, Rafaela está aqui para poder te dar aquele impulso na hora
+          de continuar no camnho certo.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="newsletter-container wow fadeInUp animated" data-wow-duration="2s">
+    <div class="newsletter-content">
+      <h2>Assine nossa newsletter</h2>
+      <p>e fique à frente dos seus concorrentes</p>
+      <div class="newsletter-input-container">
+        <input class="newsletter-input" type="text" placeholder="seuemail@exemplo.com.br" />
+        <button class="newsletter-btn">Assinar!</button>
+      </div>
+    </div>
+  </div>
+  <section class="wow fadeInDown animated" data-wow-duration="2s">
+    <h2>Sua vitória começa aqui!</h2>
+    <div>
+      <div class="plan-tab">
+        <p>Teste por 5 dias</p>
+        <p class="tab-blue">Assinante FLY</p>
+      </div>
+      <div class="plan-content">
+        <div class="plan-title-content">
+          <p>Aplicativo para IOS/Android</p>
+          <p>Agenda dinâmica</p>
+          <p>Desafio de 21 dias*</p>
+          <p>Acesso ilimitado à todas as aulas</p>
+          <p>Planejamento e assistência personalizada</p>
+          <p>Suporte 24h</p>
+          <p>Investimento</p>
+        </div>
+        <div class="plan-check-content">
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p><i class="fas fa-times-circle fa-lg grey-close"></i></p>
+          <p>R$ 0/5 dias</p>
+        </div>
+        <div class="plan-check-content">
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p><i class="fas fa-check-circle fa-lg"></i></p>
+          <p>R$ 199/mês</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="section-img-grey">
+    <section class="wow fadeInDown animated" data-wow-duration="2s">
+      <h2>Entenda nosso método</h2>
+      <div class="method-video-container">
+        <img class="method-video" src="assets/png/method-video.png" />
+        <img class="method-video" src="assets/png/method-video.png" />
+        <img class="method-video" src="assets/png/method-video.png" />
+      </div>
+      <button class="orange-btn">Participe e supere seus limites</button>
+    </section>
+  </div>
+  <section class="wow fadeInRight" data-wow-duration="2s">
+    <div class="news-title">
+      <p>Notícias</p>
+    </div>
+    <div class="main-news-container">
+      <div>
+        <img src="./assets/png/news-prf.png" />
+        <div class="news-legend">
+          <h4>Edital PRF 2019 previsto</h4>
+          <span>Saiba mais</span>
+        </div>
+      </div>
+      <div class="list-container">
+        <div class="item-list-container">
+          <img src="./assets/png/news-list01.png" />
+          <div class="image-content">
+            <p>Entenda a lógica dos concursos CESPE</p>
+            <span>Continue lendo ></span>
+          </div>
+        </div>
+        <div class="item-list-container">
+          <img src="./assets/png/news-list02.png" />
+          <div class="image-content">
+            <p>Entenda a lógica dos concursos CESPE</p>
+            <span>Continue lendo ></span>
+          </div>
+        </div>
+        <div class="item-list-container">
+          <img src="./assets/png/news-list03.png" />
+          <div class="image-content">
+            <p>Entenda a lógica dos concursos CESPE</p>
+            <span>Continue lendo ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="section-history-bg wow fadeInLeft" data-wow-duration="2s">
+    <section>
+      <h2>Histórias de Sucesso</h2>
+      <div>
+        <div class="mySlides">
+          <div class="card-slider-container">
+            <div class="card-slider-img"></div>
+            <p>
+              "Querida Carol, você fez parte de um
+              momento de mudança na minha vida. Me
+              ensinou o jeito certo de estudar, o jeito
+              que traz resultado se houver esforço.
+              Desde que fiz meu planejamento com o
+              CEPCON, passei por uma montanha russa
+              e períodos muito tristes e frustantes. Ano
+              passado eu perdi tudo que investi, herdei
+              dívidas, mas graças a Deus hoje eu posso
+              dizer que superei o que passei."
+            </p>
+            <span>Fulano de Tal - Aprovado na OAB</span>
+          </div>
+          <div class="slider-img-container">
+            <img src="./assets/png/history-video.png">
+          </div>
+          <div class="card-slider-container">
+            <div class="card-slider-img-01"></div>
+            <p>
+              "O Cepcon abriu meus horizontes, eu
+              andei e ando com muita firmeza nessa
+              luta, EU VOU VENCER!!!"
+            </p>
+            <span>Fulano de Tal - Aprovado no concurso de magistratura 2016</span>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="card-slider-container">
+            <div class="card-slider-img"></div>
+            <p>
+              "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book"
+            </p>
+            <span>Fulano de Tal - Aprovado na OAB</span>
+          </div>
+          <div class="slider-img-container">
+            <img src="./assets/png/history-video-02.png">
+          </div>
+          <div class="card-slider-container">
+            <div class="card-slider-img-01"></div>
+            <p>
+              "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book"
+            </p>
+            <span>Fulano de Tal - Aprovado no concurso de magistratura 2016</span>
+          </div>
+        </div>
+        <div class="btn-history-container">
+          <button class="btn-slider" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="btn-slider" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+      </div>
+      <span id="contact"></span>
+      <button class="btn-dark">Faça parte desse time</button>
+    </section>
+  </div>
+  <div class="section-form wow fadeInRight" data-wow-duration="2s">
+    <section>
+      <div class="form-card">
+        <h2>Fale com nossos consultores</h2>
+        <h5>Nome:</h5>
+        <input name="name" type="text" placeholder="Nome" value="" onchange="" />
+        <h5>E-mail:</h5>
+        <input name="email" type="email" placeholder="seuemail@email.com" value="" onchange="" />
+        <h5>Telefone:</h5>
+        <input name="phone" type="phone" placeholder="() 9 9999 9999" value="" onchange="" />
+        <h5>Mensagem:</h5>
+        <textarea name="message" type="text" placeholder="Digite sua mensagem" value="" onchange=""></textarea>
+        <button class="btn-green" onclick="">Enviar</button>
+      </div>
+    </section>
+  </div>
+  <%- include('inc/footer') -%>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./js/menu.js" type="text/javascript"></script>
+  <script src="./js/scroll-animate.js" type="text/javascript"></script>
+  <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+
+</html>
